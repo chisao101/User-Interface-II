@@ -77,6 +77,8 @@ button:hover{
 }
 
 .site-info p{
+    margin: 0 auto;
+    display: flex;
     padding: 1rem;
 }
 
@@ -113,3 +115,18 @@ footer{
     justify-content: center;
     align-items: center;
 }
+
+.about-page{
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    gap: 2rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about-page p{
+    padding: 3rem;
+}
+
+
