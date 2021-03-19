@@ -9,6 +9,16 @@ html{
     font-size: 100%;
 }
 
+body{
+    background-color: rgb(45, 45, 45);
+    color: #fff;
+}
+
+.bold-italic{
+    font-weight: 800;
+    font-style: italic;
+}
+
 /* Header and Nav Styles */
 
 header{
@@ -16,28 +26,28 @@ header{
     flex-wrap: wrap;
     gap: 1rem;
     background-color: rgb(45, 45, 45);
-    padding: 1rem;
     width: 100%;
     color: #fff;
     text-align: center;
+    padding: 10vw;
 }
 
 .header-box1{
-    flex: 1 1 20%;
+    flex: 1 1 15%;
 }
 
 .header-box2{
-    flex: 1 1 40%;
+    flex: 1 1 30%;
 }
 
 .header-box3{
-    flex: 1 1 20%;
+    flex: 1 1 15%;
 }
 
 .header-box3 button{
     background-color: rgb(72, 94, 139);
     color: #fff;
-    padding: 4px 10px;
+    padding: .5rem 1rem;
     border: none;
 }
 
@@ -50,7 +60,7 @@ header nav{
 }
 
 header nav a{
-    flex: 0 0 20%;
+    flex: 1 1 20%;
     text-decoration: none;
     color: #fff;
 }
@@ -63,45 +73,50 @@ header nav a{
     background-size: cover;
     color: #fff;
     text-align: center;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .hero-inner-container{
     background-color: rgba(00, 00, 00, .8);
     display: flex;
-    gap: 1.5rem;
+    gap: 1rem;
     justify-content: space-around;
     width: 100%;
     flex-wrap: wrap;
-    padding: 2rem 4rem;
+    padding: 1rem 2rem;
+    align-items: center;
 }
 
 .hero-inner-image{
-    overflow: hidden;
-    flex: 1 1 200px;
+    flex: 1 1 30%;
+    margin: 0;
+    padding: 0;
 }
 
 .hero img{
     border: 5px solid #fff;
     border-radius: 15px;
-    width: 100%;
+    width: 80%;
 }
 
 .hero-inner-content{
-    flex: 2 2 400px;
+    flex: 2 2 50%;
+    padding: 0;
+    margin: 0;
 }
 
 
 .hero-inner-content h1{
     text-align: left;
-    font-size: clamp(40px, 5vw, 70px);
-    line-height: 4rem;
+    font-size: clamp(28px, 5vw, 48px);
+    line-height: 3rem;
+    padding: 1rem;
 }
 
 .hero-inner-container p{
     text-align: left;
-    font-size: clamp(16px, 2vw, 20px);
+    font-size: clamp(12px, 1.8vw, 18px);
     display: inline-block;
 }
 
@@ -136,23 +151,78 @@ header{
 
 .gallery{
     padding: 2rem;
-    width: 70%;
+    width: 90%;
     margin: 0 auto;
     margin: 0 auto;
+}
+
+.gallery p{
+    padding: 3rem;
 }
 
 .gallery-box-container{
     display: flex;
     flex-wrap: wrap;
+    gap: 1.5rem;
     justify-content: center;
     align-items: center;
 }
 
 .gallery-box{
-    width: 200px;
-    margin: 2rem;
+    flex: 1 1 200px;
+    text-align: center;
+    border-radius: 10px;
+    padding: .5rem;
+    border: 1px solid #fff;
+}
+
+.gallery-box img{
+    border: 3px solid #fff;
+    border-radius: 10px;
 }
 
 .gallery-box p{
+    text-align: left;
+}
+
+.fab{
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    margin: .6rem;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem;
+    align-items: fcenter;
+}
+
+.section-bottom{
+    border-top: 2px solid rgb(158, 158, 158);
+    margin: 2rem;
+}
+
+.about-me{
+    width: 80%;
     text-align: center;
 }
+
+.about-me{
+    margin: 0 auto;
+}
+
+.about-me h3{
+    margin: 2rem;
+}
+
+.gallery h1{
+    margin: 2rem;
+}
+
+.contact-page{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
