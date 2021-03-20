@@ -74,6 +74,8 @@ header nav a{
     
     display: inline-block;
     cursor: pointer;
+    margin: 0 auto;
+    order: 1;
 }
 
 .toggle-input{
@@ -243,7 +245,7 @@ footer{
     display: flex;
     justify-content: space-around;
     padding: 3rem;
-    align-items: fcenter;
+    align-items: center;
 }
 
 .section-bottom{
