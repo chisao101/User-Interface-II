@@ -1,18 +1,17 @@
 @media(max-width: 800px){
-    .header-box1{
+    .header-box1,
+    .header-box3{
         flex: 1 1 40%;
     }
     
    .header-box2{
         flex: 0 0 100%;
         order: 2;
-
     }
     
-    .header-box3{
+    /* .header-box3{
         flex: 1 1 40%;
-
-    }
+    } */
 
     header nav a{
         flex: 1 1 20%;
@@ -36,8 +35,7 @@
         flex: 1 1 80%;
     }
 
-    .gallery-box-container{
-        
+    .gallery-box-container{        
         flex-wrap: wrap;
         width: 90%;
         padding: 0;
@@ -50,7 +48,7 @@
     }
 }
 
-@media(max-width: 480px){
+@media(max-width: 500px){
     
     .header-box1{
         flex: 1 1 100%;

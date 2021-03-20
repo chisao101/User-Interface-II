@@ -65,6 +65,54 @@ header nav a{
     color: #fff;
 }
 
+/* TOGGLE SWITCH STYLES STARTS */
+
+.toggle{
+    --width: 40px;
+    --height: calc(var(--width) / 2);
+    --border-radius: calc(var(--height) / 2);
+    
+    display: inline-block;
+    cursor: pointer;
+}
+
+.toggle-input{
+    display: none;
+}
+
+.toggle-fill{
+    position: relative;
+    width: var(--width);
+    height: var(--height);
+    border-radius: var(--border-radius);
+    background: rgb(202, 202, 202);
+    transition: background 200ms;
+}
+
+.toggle-input:checked ~ .toggle-fill{
+    background: rgb(72, 94, 139);
+}
+
+.toggle-fill::after{
+    content: 'M';
+    height: var(--height);
+    width: var(--height);
+    border-radius: var(--border-radius);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    color: rgb(72, 94, 139);
+    padding: .1rem;
+    transition: transform 200ms;    
+}
+
+.toggle-input:checked ~ .toggle-fill::after{
+    transform: translateX(var(--height));
+}
+
+/* TOGGLE SWITCH STYLES ENDS */
+
 /* Hero Styles */
 
 .hero{
