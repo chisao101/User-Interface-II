@@ -72,7 +72,7 @@ header nav a{
     --height: calc(var(--width) / 2);
     --border-radius: calc(var(--height) / 2);
     
-    display: inline-block;
+    display: none;
     cursor: pointer;
     margin: 0 auto;
     order: 1;
@@ -94,6 +94,7 @@ header nav a{
 .toggle-input:checked ~ .toggle-fill{
     background: rgb(72, 94, 139);
 }
+
 
 .toggle-fill::after{
     content: 'M';
@@ -266,13 +267,33 @@ footer{
     margin: 2rem;
 }
 
-.gallery h1{
-    margin: 2rem;
+.gallery h1,
+.contact-page h1{
+    margin: 4rem;
 }
 
 .contact-page{
     text-align: center;
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
 }
 
+
+
+.contact-page form{
+    padding: 2rem;
+    margin: 2rem;
+    text-align: left;
+}
+
+.form-container{
+    display: flex;
+}
+
+.contact-image{
+    width: 100%;
+    height: 100%;
+    margin: 2rem;
+    border: 5px solid #fff;
+    border-radius: 15px;
+} 
