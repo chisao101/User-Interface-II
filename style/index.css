@@ -299,6 +299,7 @@ footer{
 
 
 .contact-page form{
+    width: 60%;
     padding: 2rem;
     margin: 2rem;
     text-align: left;
