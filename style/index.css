@@ -292,7 +292,7 @@ footer{
 
 .contact-page{
     text-align: center;
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -300,8 +300,8 @@ footer{
 
 .contact-page form{
     width: 60%;
-    padding: 2rem;
-    margin: 2rem;
+    padding: .5rem;
+    margin: 1rem;
     text-align: left;
 }
 
@@ -314,7 +314,7 @@ footer{
 .contact-image{
     width: 350px;
     height: 350px;
-    margin: 2rem;
+    margin: 1rem;
     border: 5px solid #fff;
     border-radius: 15px;
 } 
