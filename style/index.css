@@ -255,12 +255,30 @@ footer{
 }
 
 .about-me{
-    width: 80%;
+    width: 60%;
     text-align: center;
+    margin: 0 auto;
 }
 
-.about-me{
-    margin: 0 auto;
+.about-me-box{
+    display: flex;
+    padding: 2rem;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.about-me-box img{
+    flex: 1 1 16vw;
+    margin: 2rem;
+    border-radius: 50%;
+    border: 5px solid #fff;
+}
+
+.about-me-box p{
+    flex: 2 2 60vw;
 }
 
 .about-me h3{
